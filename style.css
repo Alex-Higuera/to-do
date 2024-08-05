@@ -5,7 +5,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background-color: rgb(82, 82, 82);
+    background-color: #F2F0EF;
     display: flex;
     justify-content: center; /* align items horizontal */
     align-items: center; /* align items vertical */
@@ -13,16 +13,30 @@ body {
 
 .sidebar {
     height: 100vh;
-    width: 300px;
+    width: 250px;
     position: fixed;
     top: 0;
     left: 0;
-
-    background-color: rgba(0, 0, 0, 0.616);
-    color: white;
+    overflow-x: hidden;
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: #bdc3c7;
+    color: black;
 }
 
-button
+.sidebar .todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    
+}
+
+.sidebar .close-btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    align-items: end;
+}
 
 .box{
     height: 800px;
@@ -31,7 +45,7 @@ button
 }
 
 .title {
-    background: linear-gradient(#ffffff, #abbaab);
+    background: goldenrod;
     text-align: center;
     height: 50px;
     width: 700px;
