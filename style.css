@@ -1,0 +1,39 @@
+* {
+    font-family: serif;
+    
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(82, 82, 82);
+    display: flex;
+    justify-content: center; /* align items horizontal */
+    align-items: center; /* align items vertical */
+}
+
+.sidebar {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+}
+
+button
+
+.box{
+    height: 800px;
+    width: 700px;
+    background: transparent;
+}
+
+.title {
+    background: linear-gradient(#ffffff, #abbaab);
+    text-align: center;
+    height: 50px;
+    width: 700px;
+
+}
